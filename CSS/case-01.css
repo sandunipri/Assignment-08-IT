@@ -1,0 +1,51 @@
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(233, 233, 233);
+  }
+  
+  .container {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .employee-container {
+    width: 80%;
+    height: 100%;
+    border-bottom: 4px solid rgb(175, 175, 175);
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .office {
+    background-image: url(/assects/image/animatie_aanwezigheidssimulatie2.gif);
+    background-size: cover;
+    width: 20%;
+    height: 100%;
+  }
+  
+  .employee {
+    background-image: url(/assects/image/225357809-e29f34cc-000c-4ec7-b6c8-81095162d049.gif);
+    background-size: cover;
+    width: calc(100% / 6);
+    height: 100%;
+  }
+  
+  .sign {
+    position: relative;
+    top: 0px;
+    left: calc(100% - 20px);
+    color: cyan;
+    font-family: monospace;
+    font-size: 1.7rem;
+    font-weight: 600;
+  }
+  
